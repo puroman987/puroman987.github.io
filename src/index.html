@@ -7,13 +7,15 @@
     <meta name="author" content="Artem">
     <meta name="robots" content="all">
     <meta property="og:title" content="Это моя первая страница...">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" style="text/css" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">Артем Белов</div>
             <div class="menu"><ul>
-                <li>Услуги</li>
+                <li>Обо мне</li>
                 <li>Услуги</li>
                 <li>Кейсы</li>
                 <li>Прайс</li>
@@ -29,12 +31,13 @@
     <input type="submit" value="Обо мне">
     <input type="submit" value="Мои работы">
 </div></div>
-<h3>Обо мне</h3>
-<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores hic, quam accusantium. Laboriosam veritatis voluptas saepe dolores dicta, pariatur illum, quisquam suscipit, rerum omnis non molestiae animi ratione delectus architecto, nisi fugiat? Illo itaque facilis eveniet aliquam, nemo soluta commodi molestias, expedita dicta similique rerum quisquam eum maiores iure? Natus.</span>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores hic, quam accusantium. Laboriosam veritatis voluptas saepe dolores dicta, pariatur illum, quisquam suscipit, rerum omnis non molestiae animi ratione delectus architecto, nisi fugiat? Illo itaque facilis eveniet aliquam, nemo soluta commodi molestias, expedita dicta similique rerum quisquam eum maiores iure? Natus.</p>
-    <br><input type="submit" value="Скачать резюме">
-    <br><h3>Что я умею</h3>
-    <br><div class="menu2"><ul>
+<div class="about"><h3>Обо мне</h3>
+<p class="image"><img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3.png"></p>
+<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sed quo, voluptatibus. Sapiente numquam placeat incidunt, porro obcaecati adipisci cumque ab facere ex animi, inventore at, delectus! Quis eligendi, enim aperiam consequuntur voluptatem.
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores hic, quam accusantium. Laboriosam veritatis voluptas saepe dolores dicta, pariatur illum, quisquam suscipit, rerum omnis non molestiae animi ratione delectus architecto, nisi fugiat? Illo itaque facilis eveniet aliquam, nemo soluta commodi molestias, expedita dicta similique rerum quisquam eum maiores iure? Natus.</p></span>
+    <p class="rezume"><input img src="img/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png" type="submit" value="Скачать резюме"></p></div>
+<br><div class="uslugi" ><h3>Что я умею</h3>
+<br><ul>
                 <li><img src="img/%D0%BD%D0%BE%D1%83%D1%82.png">
                 <p>Веб-дизайн</p>
                 <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla animi, a, veniam praesentium ipsa odio.
@@ -54,7 +57,7 @@
     </ul></div>
     <br><h3>Кейсы</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora modi, accusamus perferendis ipsa voluptatum, architecto!
-    <p><img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png"></p>
+    <p><img class="caseimg" src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png"></p>
     <p>CLIENT:</p>
     Какая-то комапния
     <p>WEBSITE:</p>
@@ -62,7 +65,7 @@
     <p><input type="submit" value="VISIT LIVE SITE"></p>
     <h4>Название проекта</h4>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus debitis dicta aut alias adipisci eaque, asperiores saepe, architecto officia! Rerum dignissimos ducimus sunt sapiente voluptates magni molestias voluptatum. Dolore consequatur sunt, atque sapiente temporibus et nesciunt suscipit cum. Nesciunt, dolor.</p>
-    <h3>Расчет стоимости</h3>
+    <h4>Расчет стоимости</h4>
     <h4>Тип сайта</h4>
     <select name="list1" id="list" >
         <option value="opt0">Выберите пункт...</option>

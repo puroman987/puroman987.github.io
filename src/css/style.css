@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    width: auto;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 387px;
+    float: left;
+}
+.menu{
+    color: white;
+    margin-left: 432px;
+    float: left;
+}
+ul li{
+    
+    float:left;
+    line-height: 60px;
+    color: white;
+    padding-right: 35px;
+    font-size: 16px;
+}
+.main{
+    width: auto;
+    height: calc(100%);
+    background:url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) no-repeat 90% 100%/auto 80% , url(../img/%D1%84%D0%BE%D0%BD1.jpg) no-repeat center/cover;
+}
+.title_container{
+    float: left;
+    margin: 300px 0px 0px 380px;
+    color: #2c384a;
+    text-align: center;
+}
+.title_container h1{
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.title_container h4{
+    font-size: 15px;
+    color: #79818c;
+    margin-top: 30px;
+}
+.title_container input{
+    font-size: 15px;
+    color: #79818c;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #79818c;
+    border-radius: 5px;
+    padding: 0px 13px;
+    margin-top: 56px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h3{
+    background:(../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg) no-repeat center/cover;
+    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat center;
+    text-align: center;
+    padding-bottom: 55px;
+    margin-top: 55px;
+    line-height: 130px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    font-family: Franklin Gothic Medium , sans-serif;
+}
+.image{
+    text-align: center;
+    padding-bottom: 25px;
+}
+span{
+    display: block;
+    width: 750px;
+    margin:28px 420px 40px;
+    height: auto;
+    text-align: left;
+    color: #3f495a;
+    font-size: 4.24 pt;
+    font-family: Calibri , sans-serif;
+}
+span>p{
+    margin-top: 40px;
+}
+.rezume input{
+    font-size: 4.24 pt;
+    color: #79818c;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #79818c;
+    border-radius: 5px;
+    padding: 10px 10px 10px 25px;
+    background: url(../img/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png)  no-repeat left;
+    margin-left: 700px;
+}
+div .uslugi{
+    background-image: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg)no-repeat center;
+    width: 800px;
+    height: 800px;
+    background-position: center;
+}
